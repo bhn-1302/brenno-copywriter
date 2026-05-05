@@ -2,28 +2,35 @@ export default function Home() {
   return (
     <main className="min-h-screen px-6 py-16">
       <div className="max-w-4xl mx-auto">
+        {/* HERO */}
         <section className="mb-20">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Copywriter focado em criar textos que prendem atenção e geram ação
           </h1>
 
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-600 mb-10 max-w-2xl">
             Especializado em landing pages, páginas de venda e conteúdo
             estratégico.
           </p>
 
-          <a
-            href="/projetos"
-            className="inline-block bg-black text-white px-6 py-3 rounded-lg"
-          >
-            Ver projetos
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a
+              href="/projetos"
+              className="bg-black text-white px-6 py-3 rounded-lg text-center hover:opacity-90 transition"
+            >
+              Ver projetos
+            </a>
 
-          <a href="/artigos" className="underline">
-            Ver artigos
-          </a>
+            <a
+              href="/artigos"
+              className="border border-black px-6 py-3 rounded-lg text-center hover:bg-black hover:text-white transition"
+            >
+              Ver artigos
+            </a>
+          </div>
         </section>
 
+        {/* PROJETOS */}
         <section>
           <h2 className="text-2xl font-semibold mb-8">Projetos selecionados</h2>
 

@@ -4,7 +4,7 @@ export default function Artigos() {
       <h1 className="text-3xl font-bold mb-8">Artigos</h1>
 
       <a
-        href="/artigos/barbeira"
+        href="/artigos/barbearia"
         className="block border p-6 rounded-lg hover:shadow-md transition"
       >
         <h2 className="text-xl font-semibold mb-2">
