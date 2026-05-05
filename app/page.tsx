@@ -18,6 +18,10 @@ export default function Home() {
           >
             Ver projetos
           </a>
+
+          <a href="/artigos" className="underline">
+            Ver artigos
+          </a>
         </section>
 
         <section>
