@@ -5,8 +5,8 @@ export default function Contato() {
 
       <p className="mb-4">Vamos trabalhar juntos?</p>
 
-      <p>Email: seuemail@email.com</p>
-      <p>LinkedIn: linkedin.com/in/seuusuario</p>
+      <p>Email: nascimenttobrenno1302@gmail.com</p>
+      <p>LinkedIn: www.linkedin.com/in/brenno-henrique-nascimento</p>
     </main>
   );
 }
