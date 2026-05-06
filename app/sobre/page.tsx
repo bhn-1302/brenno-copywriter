@@ -4,9 +4,11 @@ export default function Sobre() {
       <h1 className="text-3xl font-bold mb-6">Sobre</h1>
 
       <p>
-        Sou redator focado em criar textos que não apenas informam, mas geram
-        ação. Trabalho com landing pages, páginas de venda e conteúdo
-        estratégico, sempre buscando clareza, impacto e resultado.
+        Sou redator e copywriter formado em Marketing Digital pelo Centro Universitário Favip Wyden (2023), com um diferencial estratégico: base técnica como desenvolvedor Front-End. Essa combinação multidisciplinar me permite criar textos que não apenas comunicam, mas são estruturados para a melhor experiência do usuário (UX) e otimizados para SEO.  
+      </p>
+
+      <p>
+        Em minha trajetória, foco na criação de conteúdos claros e persuasivos para landing pages, artigos e e-books, transformando ideias complexas em narrativas envolventes que geram ação. Domino ferramentas de desenvolvimento (HTML, CSS, React), o que facilita a integração direta entre o conteúdo textual e a interface digital, garantindo maior eficiência em projetos de marketing de performance.
       </p>
     </main>
   );
